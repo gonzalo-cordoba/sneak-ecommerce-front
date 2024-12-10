@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sneak Ecommerce
 
-## Getting Started
+**Sneak Ecommerce** es un proyecto de tienda en línea para la venta de zapatillas de las marcas más reconocidas. Esta aplicación está diseñada para ofrecer una experiencia de usuario intuitiva y moderna, destacando por su diseño responsive y funcionalidades avanzadas.
 
-First, run the development server:
+## Tecnologías Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+El proyecto utiliza las siguientes tecnologías:
+
+- **Next.js**: Framework de React para el desarrollo de aplicaciones web modernas y eficientes.
+- **React**: Biblioteca JavaScript para construir interfaces de usuario.
+- **TypeScript**: Superset de JavaScript que mejora la calidad del código mediante tipado estático.
+- **Tailwind CSS**: Framework CSS utilitario para diseñar interfaces modernas de manera rápida.
+- **Lucide React**: Conjunto de íconos para mejorar la experiencia visual.
+- **Tailwind Merge**: Para combinar clases de Tailwind CSS evitando conflictos.
+- **TailwindCSS Animate**: Extensión para animaciones en Tailwind CSS.
+
+## Instalación y Ejecución
+
+Sigue estos pasos para instalar y ejecutar el proyecto localmente:
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/gonzalo-cordoba/sneak-ecommerce-front.git
+   ```
+
+2. Ve al directorio del proyecto:
+
+   ```bash
+   cd sneak-ecommerce
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abre tu navegador y visita `http://localhost:3000` para ver la aplicación en acción.
+
+## Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo.
+- `npm run build`: Compila la aplicación para producción.
+- `npm run start`: Sirve la aplicación compilada.
+- `npm run lint`: Ejecuta ESLint para verificar errores de estilo y sintaxis en el código.
+
+## Características Principales
+
+- Catálogo de zapatillas de marcas reconocidas.
+- Búsqueda y filtrado de productos.
+- Diseño responsive para una excelente experiencia en dispositivos móviles y de escritorio.
+- Animaciones y transiciones visuales.
+- Autenticación de usuarios con:
+  - Formulario de registro.
+  - Inicio de sesión mediante Google.
+
+## Estructura del Proyecto
+
+El proyecto sigue una estructura modular organizada en componentes reutilizables:
+
+```
+src/
+├── components/   # Componentes reutilizables
+├── pages/        # Páginas del sitio
+├── styles/       # Estilos globales y configuración de Tailwind CSS
+├── public/       # Archivos estáticos
+└── utils/        # Utilidades y funciones compartidas
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribución
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Si deseas contribuir al proyecto:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu función o corrección:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Realiza tus cambios y haz un commit:
+   ```bash
+   git commit -m "Agrega nueva funcionalidad"
+   ```
+4. Envía tus cambios mediante un pull request.
 
-## Learn More
+## Licencia
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
