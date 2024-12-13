@@ -4,3 +4,5 @@ export { HeroSection } from "./HeroSection";
 export { InstagramFeed } from "./InstagramFeed";
 export { ProductGrid } from "./ProductGrid";
 export { CategorySlider } from "./CategorySlider";
+export { BrandHeader } from "./BrandHeader";
+export { ProductCard } from "./ProductCard";

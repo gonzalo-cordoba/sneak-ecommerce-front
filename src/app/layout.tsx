@@ -1,3 +1,4 @@
+import { NavBar } from "@/components";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} min-h-screen bg-background font-sans antialiased`}
       >
+        <NavBar />
         <div className="relative flex min-h-screen flex-col">
           <main className="flex-1">{children}</main>
         </div>
